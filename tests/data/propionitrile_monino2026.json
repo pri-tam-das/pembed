@@ -1,0 +1,147 @@
+{
+ "source": "Monino et al., JCTC 22, 1780 (2026), SI Tables S2 (geometry) and S3 (energies)",
+ "units": {
+  "geometry": "Angstrom",
+  "energy": "Hartree"
+ },
+ "basis": "cc-pVDZ",
+ "active_fragment": "-CN group (atoms 0 C, 1 N)",
+ "notes": [
+  "Equilibrium geometry, C-N = 1.1500 A (checks against the 1.15 A row).",
+  "Stretched geometries: ASSUMED N moved along the C->N axis, rest fixed (SI does not say).",
+  "DMRG = full-system reference, frozen core (Beran et al. JPCL 14, 716 (2023)); DBSS, TRE 1e-6.",
+  "ORCA B3LYP uses VWN5 -> use PySCF 'b3lyp5' for absolute-energy comparison.",
+  "CAS-in-B3LYP: CAS(6,6), SPADE, mu=1e6. DMRG-in-B3LYP: parameter-free projector + CL.",
+  "Table S3 DMRG-in-B3LYP is UNCORRECTED (no Delta_x/AC0): its error vs full DMRG at 2.50 A relative to 1.15 A is 27.31 kcal/mol, = the '27 kcal/mol' quoted before Delta_x in the main text. CAS-in-B3LYP: 15.51; KS-B3LYP: 70.76."
+ ],
+ "geometry": [
+  [
+   "C",
+   -2.38207,
+   -0.46087,
+   0.01893
+  ],
+  [
+   "N",
+   -3.18147,
+   -0.80786,
+   0.7693
+  ],
+  [
+   "H",
+   -0.03176,
+   0.93909,
+   0.54131
+  ],
+  [
+   "C",
+   0.02231,
+   0.17867,
+   -0.25262
+  ],
+  [
+   "H",
+   0.75941,
+   0.50795,
+   -1.00054
+  ],
+  [
+   "H",
+   0.38038,
+   -0.75999,
+   0.1964
+  ],
+  [
+   "C",
+   -1.34723,
+   -0.01758,
+   -0.92251
+  ],
+  [
+   "H",
+   -1.69162,
+   0.92161,
+   -1.38724
+  ],
+  [
+   "H",
+   -1.2811,
+   -0.76419,
+   -1.732
+  ]
+ ],
+ "energies": {
+  "0.85": {
+   "B3LYP": -171.5078974,
+   "DMRG_in_B3LYP": -171.2823632,
+   "CAS_in_B3LYP": -171.1115212,
+   "DMRG": -171.11161047
+  },
+  "1.00": {
+   "B3LYP": -171.8807236,
+   "DMRG_in_B3LYP": -171.6706989,
+   "CAS_in_B3LYP": -171.4944376,
+   "DMRG": -171.50086928
+  },
+  "1.15": {
+   "B3LYP": -171.9652373,
+   "DMRG_in_B3LYP": -171.7658986,
+   "CAS_in_B3LYP": -171.587566,
+   "DMRG": -171.59716505
+  },
+  "1.30": {
+   "B3LYP": -171.9335814,
+   "DMRG_in_B3LYP": -171.7426916,
+   "CAS_in_B3LYP": -171.5629227,
+   "DMRG": -171.57557639
+  },
+  "1.45": {
+   "B3LYP": -171.8614431,
+   "DMRG_in_B3LYP": -171.6787084,
+   "CAS_in_B3LYP": -171.4977407,
+   "DMRG": -171.51378665
+  },
+  "1.60": {
+   "B3LYP": -171.7818627,
+   "DMRG_in_B3LYP": -171.6080959,
+   "CAS_in_B3LYP": -171.4262593,
+   "DMRG": -171.44582726
+  },
+  "1.75": {
+   "B3LYP": -171.7084756,
+   "DMRG_in_B3LYP": -171.5438158,
+   "CAS_in_B3LYP": -171.3625797,
+   "DMRG": -171.38558935
+  },
+  "1.90": {
+   "B3LYP": -171.646024,
+   "DMRG_in_B3LYP": -171.4896637,
+   "CAS_in_B3LYP": -171.3111915,
+   "DMRG": -171.33720854
+  },
+  "2.05": {
+   "B3LYP": -171.5954464,
+   "DMRG_in_B3LYP": -171.446906,
+   "CAS_in_B3LYP": -171.2724266,
+   "DMRG": -171.30076817
+  },
+  "2.20": {
+   "B3LYP": -171.5560761,
+   "DMRG_in_B3LYP": -171.4147044,
+   "CAS_in_B3LYP": -171.244897,
+   "DMRG": -171.27519061
+  },
+  "2.35": {
+   "B3LYP": -171.526392,
+   "DMRG_in_B3LYP": -171.3907781,
+   "CAS_in_B3LYP": -171.2264711,
+   "DMRG": -171.25875127
+  },
+  "2.50": {
+   "B3LYP": -171.5044025,
+   "DMRG_in_B3LYP": -171.374308,
+   "CAS_in_B3LYP": -171.214785,
+   "DMRG": -171.24910098
+  }
+ }
+}
