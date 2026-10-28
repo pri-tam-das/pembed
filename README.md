@@ -58,12 +58,21 @@ print(res.E_eq1, emb.delta_x(res))
 MIT (see `LICENSE`).
 
 ## Citation
+**Where Does the Anion-Redox Hole Go? Reliability of Open-Shell Projection-Based Embedding for Li-Rich Cathodes, from DFT Environments to Quantum Solvers**
+
+Pritam Das, Satadeep Bhattacharjee, and Pil-Ryung Cha (2026).
+
+- **arXiv:** [2610.36659](https://arxiv.org/abs/2610.36659)
+- **BibTeX:**
+
+```bibtex
 @misc{das2026doesanionredoxholego,
-      title={Where Does the Anion-Redox Hole Go? Reliability of Open-Shell Projection-Based Embedding for Li-Rich Cathodes, from DFT Environments to Quantum Solvers}, 
-      author={Pritam Das and Satadeep Bhattacharjee and Pil-Ryung Cha},
-      year={2026},
-      eprint={2610.36659},
-      archivePrefix={arXiv},
-      primaryClass={cond-mat.mtrl-sci},
-      url={https://arxiv.org/abs/2610.36659}, 
+  title        = {Where Does the Anion-Redox Hole Go? Reliability of Open-Shell Projection-Based Embedding for Li-Rich Cathodes, from DFT Environments to Quantum Solvers},
+  author       = {Pritam Das and Satadeep Bhattacharjee and Pil-Ryung Cha},
+  year         = {2026},
+  eprint       = {2610.36659},
+  archivePrefix = {arXiv},
+  primaryClass = {cond-mat.mtrl-sci},
+  url          = {https://arxiv.org/abs/2610.36659}
 }
+```
