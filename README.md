@@ -1,8 +1,7 @@
 # pembed
 
 Projection-based wavefunction-in-DFT embedding on PySCF, spin-general throughout: closed-shell, broken-symmetry and
-true open-shell (n_α ≠ n_β) references, with point charges (QM/MM) and DFT+U. It accompanies the paper
-"⟦title⟧" (⟦journal, year⟧).
+true open-shell (n_α ≠ n_β) references, with point charges (QM/MM) and DFT+U. It accompanies the paper [**Where Does the Anion-Redox Hole Go? Reliability of Open-Shell Projection-Based Embedding for Li-Rich Cathodes, from DFT Environments to Quantum Solvers**](https://arxiv.org/abs/2610.36659) ([arXiv:2610.36659](https://arxiv.org/abs/2610.36659), 2026).
 
 ## What it does
 - **Partition.** SPADE, per spin, with optional forced per-spin active counts. The forced counts fix the active-space
